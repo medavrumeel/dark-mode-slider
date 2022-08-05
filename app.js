@@ -5,6 +5,7 @@ inputEl.addEventListener ("input", ()=>{
     updateBody();
 })
 
+
 function updateBody() {
     if (inputEl.checked) {
         bodyEl.style.background = "black"

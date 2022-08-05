@@ -35,7 +35,6 @@ input:checked + .label {
     background-color: white;
     border: 3px solid turquoise;
 }
-
 input:checked + .label .circle{
     animation: toggleOn 0.5s forwards;
     background-color: black;
